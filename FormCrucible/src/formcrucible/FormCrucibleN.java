@@ -10,6 +10,7 @@ public class FormCrucible {
 
     public static void main(String[] args) {
         Scanner lectura=new Scanner(System.in);
+//Se debe declarar una variable por linea
         String nombre,apellido,correo,telefono;
         int opcion;
         List<Formulario> lForm = new ArrayList<Formulario>();
